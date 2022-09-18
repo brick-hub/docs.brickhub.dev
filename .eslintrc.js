@@ -2,11 +2,11 @@
  * @type {import('@types/eslint').Linter.BaseConfig}
  */
 module.exports = {
-  extends: ["plugin:@docusaurus/recommended"],
-  plugins: ["@docusaurus"],
+  extends: ['plugin:@docusaurus/recommended'],
+  plugins: ['@docusaurus'],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
-  parser: "@babel/eslint-parser",
+  parser: '@babel/eslint-parser',
 };

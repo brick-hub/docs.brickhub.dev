@@ -1,7 +1,7 @@
 ---
 name: Continuous Integration
 about: Changes to the CI configuration files and scripts
-title: "ci: "
+title: 'ci: '
 labels: ci
 ---
 
