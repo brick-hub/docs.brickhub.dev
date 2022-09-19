@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Brick-Hub',
-  projectName: 'docs',
+  projectName: 'docs.brickhub.dev',
 
   i18n: {
     defaultLocale: 'en',
@@ -29,7 +29,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/brick-hub/docs/tree/main/',
+          editUrl: 'https://github.com/brick-hub/docs.brickhub.dev/tree/main/',
         },
         blog: false,
         theme: {
@@ -50,7 +50,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/brick-hub/docs',
+            href: 'https://github.com/brick-hub/docs.brickhub.dev',
             position: 'right',
             className: 'navbar-github-icon',
             'aria-label': 'GitHub repository',
@@ -94,11 +94,11 @@ const config = {
             items: [
               {
                 label: 'Open an issue',
-                href: 'https://github.com/brick-hub/docs/issues/new/choose',
+                href: 'https://github.com/brick-hub/docs.brickhub.dev/issues/new/choose',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/brick-hub/docs',
+                href: 'https://github.com/brick-hub/docs.brickhub.dev',
               },
               {
                 label: 'Mason',
