@@ -33,11 +33,11 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-html footer {
+html .footer {
   margin-top: 4rem;
 }
 
-html[data-theme='dark'] footer {
+html[data-theme='dark'] .footer {
   background-color: var(--ifm-footer-background-color);
 }
 
