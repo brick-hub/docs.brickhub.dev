@@ -5,7 +5,11 @@ sidebar_position: 2
 
 # Using Bricks 👷🧱
 
-As we learned in the [overview](/), `mason make` allows us to generate code from an existing brick.
+In this section, we'll take a look at how to use the `mason make` command to generate code from an existing brick.
+
+## Overview 🚀
+
+As we saw in the [overview](/), we can run the `mason make` command followed by the name of an installed brick to generate code from that brick:
 
 ```bash
 $ mason make hello
@@ -14,8 +18,6 @@ $ mason make hello
 ✓ Generated 1 file:
   /me/mason_playground/HELLO.md (new)
 ```
-
-In this section, we'll take a more in-depth look at the `make` command.
 
 ## Command-line Args 🧑‍💻
 
