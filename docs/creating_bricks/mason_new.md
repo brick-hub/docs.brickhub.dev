@@ -1,9 +1,9 @@
 ---
 slug: /mason-new
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# Creating Bricks ✨🧱
+# Creating Bricks ✨
 
 In this section, we'll take a look at how to use the `mason new` command to create your own bricks.
 

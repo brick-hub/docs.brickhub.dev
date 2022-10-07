@@ -1,9 +1,9 @@
 ---
 slug: /mason-make
-sidebar_position: 2
+sidebar_position: 5
 ---
 
-# Using Bricks 👷🧱
+# Using Bricks 👷
 
 In this section, we'll take a look at how to use the `mason make` command to generate code from an existing brick.
 
