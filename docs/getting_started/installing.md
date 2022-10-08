@@ -1,5 +1,6 @@
 ---
 slug: /installing
+description: Learn how to install the Mason CLI.
 sidebar_position: 1
 ---
 

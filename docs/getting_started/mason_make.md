@@ -1,5 +1,6 @@
 ---
 slug: /mason-make
+description: Learn how to generate code from an installed brick.
 sidebar_position: 5
 ---
 

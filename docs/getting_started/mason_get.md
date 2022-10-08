@@ -1,5 +1,6 @@
 ---
 slug: /mason-get
+description: Learn how to install your first brick.
 sidebar_position: 3
 ---
 

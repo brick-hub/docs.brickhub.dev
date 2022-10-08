@@ -1,5 +1,6 @@
 ---
 slug: /mason-init
+description: Learn how to initialize mason in your current workspace.
 sidebar_position: 2
 ---
 
