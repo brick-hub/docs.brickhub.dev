@@ -13,7 +13,7 @@ We can list all installed bricks using the `list` (`ls` for short) command.
 ## Locally Bricks 🗂
 
 ```bash
-$ mason list
+mason list
 /me/mason_playground
 └── hello 0.1.0+1 -> registry.brickhub.dev
 ```
@@ -26,10 +26,10 @@ If we change to a directory outside of the current workspace and list installed 
 
 ```bash
 # Change to a directory outside the workspace
-$ cd /me/dart_playground
+cd /me/dart_playground
 
 # List available bricks
-$ mason ls
+mason ls
 /me/dart_playground
 └── (empty)
 ```
@@ -39,7 +39,7 @@ $ mason ls
 We can list globally installed bricks by adding the `--global` (`-g` for short) flag.
 
 ```bash
-$ mason ls -g
+mason ls -g
 /me/.mason-cache/global
 └── hello 0.1.0+1 -> registry.brickhub.dev
 ```

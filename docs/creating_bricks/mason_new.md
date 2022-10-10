@@ -13,7 +13,7 @@ In this section, we'll take a look at how to use the `mason new` command to crea
 The `mason new` command allows us to create a new, custom brick template in the current working directory:
 
 ```bash
-$ mason new example
+mason new example
 ✓ Created new brick: example (74ms)
 ✓ Generated 5 file(s):
   /me/mason_playground/example/brick.yaml (new)
@@ -28,7 +28,7 @@ $ mason new example
 We can use the `--desc` option to specify a custom brick description when creating a new brick via `mason new`:
 
 ```bash
-$ mason new example --desc "My awesome brick"
+mason new example --desc "My awesome brick"
 ```
 
 ## Custom Output Directory 🗂
@@ -36,5 +36,5 @@ $ mason new example --desc "My awesome brick"
 Similarly to `mason make`, we can specify a custom output directory when creating a new brick via the `-o` option:
 
 ```bash
-$ mason new example -o ./path/to/brick
+mason new example -o ./path/to/brick
 ```

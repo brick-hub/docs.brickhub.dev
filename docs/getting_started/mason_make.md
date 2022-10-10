@@ -6,14 +6,14 @@ sidebar_position: 5
 
 # Using Bricks 👷
 
-In this section, we'll take a look at how to use the `mason make` command to generate code from an existing brick.
+In this section, we'll take a look at how to use the `make` command to generate code from an existing brick.
 
 ## Overview 🚀
 
 As we saw in the [overview](/), we can run the `mason make` command followed by the name of an installed brick to generate code from that brick:
 
 ```bash
-$ mason make hello
+mason make hello
 ? What is your name? (Dash) Mason
 ✓ Made brick hello (52ms)
 ✓ Generated 1 file:
@@ -25,7 +25,7 @@ $ mason make hello
 By default, if a brick requires variables `mason` will prompt for those variables as seen in the snippet above. If we know in advance what variables a brick requires, we can provide variables to `mason` as command-line arguments:
 
 ```bash
-$ mason make hello --name Mason
+mason make hello --name Mason
 ✓ Made brick hello (52ms)
 ✓ Generated 1 file:
   /me/mason_playground/HELLO.md (new)
@@ -50,7 +50,7 @@ In some cases, it may be inconvenient to have to provide variables manually or v
 We can then pass the config file to `mason make` via the `-c` option:
 
 ```bash
-$ mason make hello -c config.json
+mason make hello -c config.json
 ✓ Made brick hello (52ms)
 ✓ Generated 1 file:
   /me/mason_playground/HELLO.md (new)
@@ -65,7 +65,7 @@ The configuration file can have any name and can live anywhere on your local fil
 By default `mason make` will generate the output in the current working directory but a custom output directory can be specified via the `-o` option:
 
 ```bash
-$ mason make hello --name Mason -o ./out
+mason make hello --name Mason -o ./out
 ✓ Made brick hello (52ms)
 ✓ Generated 1 file:
   /me/mason_playground/out/HELLO.md (new)
@@ -80,7 +80,7 @@ $ mason make hello --name Mason -o ./out
 A conflict can occur when `mason` attempts to generate a file which already exists and the contents of the existing file differ from the contents of the generated file.
 
 ```bash
-$ mason make hello --name Dash
+mason make hello --name Dash
 conflict /me/mason_playground/HELLO.md
 Overwrite HELLO.md? (Yyna) y
 ✓ Made brick hello (32.5s)
@@ -110,16 +110,16 @@ A custom file conflict resolution strategy can be specified via the `--on-confli
 
 ```bash
 # Always prompt when there is a file conflict (default)
-$ mason make hello --name Mason --on-conflict prompt
+mason make hello --name Mason --on-conflict prompt
 
 # Always overwrite when there is a file conflict
-$ mason make hello --name Mason --on-conflict overwrite
+mason make hello --name Mason --on-conflict overwrite
 
 # Always skip when there is a file conflict
-$ mason make hello --name Mason --on-conflict skip
+mason make hello --name Mason --on-conflict skip
 
 # Always append when there is a file conflict
-$ mason make hello --name Mason --on-conflict append
+mason make hello --name Mason --on-conflict append
 ```
 
 ## Detecting Changes 🕵️
@@ -128,5 +128,5 @@ In some cases, it may be useful to detect whether running `mason make` for a giv
 
 ```bash
 # 🚨 Exit with error if any files were changed
-$ mason make hello --name Dash --set-exit-if-changed
+mason make hello --name Dash --set-exit-if-changed
 ```

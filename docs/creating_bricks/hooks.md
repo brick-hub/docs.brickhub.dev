@@ -27,7 +27,7 @@ Hooks must be defined in the hooks directory at the root of the brick:
 The easiest way to get started with hooks is by specifying the `--hooks` flag when creating a new brick:
 
 ```bash
-$ mason new example --hooks
+mason new example --hooks
 ```
 
 :::note
@@ -84,5 +84,5 @@ Hook execution can be disabled using the `--no-hooks` flag:
 
 ```bash
 # Disable hook script execution
-$ mason make example --name Mason --no-hooks
+mason make example --name Mason --no-hooks
 ```

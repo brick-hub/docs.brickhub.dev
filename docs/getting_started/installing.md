@@ -34,7 +34,6 @@ brew install mason
 Once you have successfully installed the `mason_cli` you can verify your setup by running the `mason` command in your terminal. If `mason_cli` was installed correctly, you should see something similar to the following output:
 
 ```bash
-$ mason
 🧱  mason • lay the foundation!
 Usage: mason <command> [arguments]
 Global options:
