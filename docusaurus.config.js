@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docs | BrickHub',
+  title: 'BrickHub Docs',
   tagline: 'Lay the foundation 🧱',
   url: 'https://docs.brickhub.dev',
   baseUrl: '/',
