@@ -10,7 +10,7 @@ sidebar_position: 4
 
 We can list all installed bricks using the `list` (`ls` for short) command.
 
-## Locally Bricks 🗂
+## Local Bricks 🗂
 
 ```bash
 mason list
@@ -34,7 +34,7 @@ mason ls
 └── (empty)
 ```
 
-## Globally Bricks 🌎
+## Global Bricks 🌎
 
 We can list globally installed bricks by adding the `--global` (`-g` for short) flag.
 
