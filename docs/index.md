@@ -31,5 +31,5 @@ mason make hello
 Congrats! You've successfully installed `mason` and generated code from your first brick 🎉
 
 [brickhub_link]: https://brickhub.dev
-[mason_demo]: https://raw.githubusercontent.com/felangel/mason/master/assets/mason_demo.gif
+[mason_demo]: /img/mason_demo.gif
 [mason_link]: https://github.com/felangel/mason
