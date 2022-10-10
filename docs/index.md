@@ -11,7 +11,7 @@ BrickHub is a platform where developers can discover, install, and publish reusa
 
 ![Mason Demo][mason_demo]
 
-:::tip
+:::info
 Learn more about the mason ecosystem at [https://github.com/felangel/mason](https://github.com/felangel/mason).
 :::
 
