@@ -81,7 +81,7 @@ mason ls -g
 
 ## Usage
 
-At this point we have successfully installed our local brick and can use it within the current workspace via `mason make`:
+At this point we have successfully installed our local brick and can use it via `mason make`:
 
 ```bash
 mason make example
