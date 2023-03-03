@@ -1,7 +1,7 @@
 ---
 slug: /hooks
 description: Learn how to execute custom scripts via hooks.
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Hooks 🪝
