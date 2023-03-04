@@ -65,6 +65,25 @@ dependencies:
   google_fonts: latest
 ```
 
+It's also possible to conditionally generate files by applying the same mustache syntax to file paths.
+
+For example, if we want to conditionally generate a `CHANGELOG.md`, our `__brick__` directory structure would look like:
+
+```
+├── __brick__
+│   └── {{#createChangelog}}CHANGELOG.md{{/createChangelog}}
+```
+
+If we run `mason make` from the template with the following variables:
+
+```json
+{
+  "createChangelog": false
+}
+```
+
+The `CHANGELOG.md` would not be generated.
+
 ## Loops 🔁
 
 We can also have loops in templates in response to array variable values.
@@ -94,6 +113,10 @@ Android
 
 Web
 ```
+
+:::tip
+Using `{{.}}` in a loop allows us to render the current value at each iteration of the loop.
+:::
 
 ## Lambdas ✨
 
