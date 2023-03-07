@@ -4,11 +4,11 @@ description: Learn how to create and work with brick bundles.
 sidebar_position: 5
 ---
 
-# Bundling Bricks 📦
+# 📦 Bundling Bricks
 
 In this section, we'll take a look at how to create and work with bundled versions of existing bricks.
 
-## Overview 🚀
+## 🚀 Overview
 
 Bundles are convenient for cases where you want to include your brick as part of another app or upload the bundle for later use.
 
@@ -19,7 +19,7 @@ There are currently two types of bundles:
 
 We can go to/from a bundle using the `mason bundle` and `mason unbundle` command respectively.
 
-## Bundle Usage 🧶
+## 🧶 Bundle Usage
 
 To generate a bundle:
 
@@ -43,7 +43,7 @@ mason bundle --source hosted <BRICK_NAME> -o ./path/to/destination
 mason bundle --source hosted <BRICK_NAME> -t dart -o ./path/to/destination
 ```
 
-## Unbundle Usage 🪡
+## 🪡 Unbundle Usage
 
 You can use mason to generate a brick from an existing bundle. Unbundling is useful in cases where you want to make changes to an existing bundle because you can first unbundle, make the changes to the template, and generate a new bundle.
 
@@ -57,7 +57,7 @@ mason unbundle ./path/to/bundle -o ./path/to/destination/
 mason unbundle ./path/to/bundle -t dart -o ./path/to/destination/
 ```
 
-## Using Dart Bundles 🎯
+## 🎯 Using Dart Bundles
 
 Dart bundles can be included and imported from within Dart applications in order to programmatically generate code.
 

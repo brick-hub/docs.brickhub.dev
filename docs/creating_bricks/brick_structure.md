@@ -4,9 +4,9 @@ description: Learn about the structure of a brick.
 sidebar_position: 2
 ---
 
-# Structure of a Brick 🧱
+# 🧱 Structure of a Brick
 
-## Overview 🚀
+## 🚀 Overview
 
 If we take a closer look at the example brick we just generated, it should look like:
 

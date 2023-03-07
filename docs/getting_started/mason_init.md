@@ -4,7 +4,7 @@ description: Learn how to initialize mason in your current workspace.
 sidebar_position: 2
 ---
 
-# Initializing Mason CLI 📁
+# 📁 Initializing Mason CLI
 
 Once `mason_cli` is installed, we can use the `init` command to initialize `mason` in the current directory. This will generate a `mason.yaml` and allow `mason` to work with bricks scoped locally within the workspace.
 

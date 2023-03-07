@@ -4,11 +4,11 @@ description: Learn how to create your own custom bricks.
 sidebar_position: 1
 ---
 
-# Creating Bricks ✨
+# ✨ Creating Bricks
 
 In this section, we'll take a look at how to use the `mason new` command to create your own bricks.
 
-## Overview 🚀
+## 🚀 Overview
 
 The `mason new` command allows us to create a new, custom brick template in the current working directory:
 
@@ -23,7 +23,7 @@ mason new example
   /me/mason_playground/example/__brick__/HELLO.md (new)
 ```
 
-## Custom Description ✍️
+## ✍️ Custom Description
 
 We can use the `--desc` option to specify a custom brick description when creating a new brick via `mason new`:
 
@@ -31,7 +31,7 @@ We can use the `--desc` option to specify a custom brick description when creati
 mason new example --desc "My awesome brick"
 ```
 
-## Custom Output Directory 🗂
+## 🗂 Custom Output Directory
 
 Similarly to `mason make`, we can specify a custom output directory when creating a new brick via the `-o` option:
 

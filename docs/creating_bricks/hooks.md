@@ -4,7 +4,7 @@ description: Learn how to execute custom scripts via hooks.
 sidebar_position: 5
 ---
 
-# Hooks 🪝
+# 🪝 Hooks
 
 `Mason` supports custom script execution via hooks.
 
@@ -34,7 +34,7 @@ mason new example --hooks
 Currently `mason` only supports hooks written in Dart.
 :::
 
-### Hooks Usage ✨
+### ✨ Hooks Usage
 
 Every hook must contain a `run` method which accepts a `HookContext` from `package:mason/mason.dart`.
 
@@ -78,7 +78,7 @@ Future<void> run(HookContext context) async {
 The working directory of the hook is the directory in which the code is generated.
 :::
 
-### Disabling Hooks ❌
+### ❌ Disabling Hooks
 
 Hook execution can be disabled using the `--no-hooks` flag:
 

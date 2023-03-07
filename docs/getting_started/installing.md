@@ -4,13 +4,13 @@ description: Learn how to install the Mason CLI.
 sidebar_position: 1
 ---
 
-# Installing Mason CLI 🧑‍💻
+# 🧑‍💻 Installing Mason CLI
 
 :::info
 In order to install [Mason CLI][mason_cli_link] you must have the [Dart SDK][dart_installation_link] installed on your machine.
 :::
 
-## Pub.dev 🎯
+## 🎯 Pub.dev
 
 We recommend installing `mason_cli` from [pub.dev][pub_dev_link]
 
@@ -19,7 +19,7 @@ We recommend installing `mason_cli` from [pub.dev][pub_dev_link]
 dart pub global activate mason_cli
 ```
 
-## Homebrew 🍺
+## 🍺 Homebrew
 
 Alternatively, `mason_cli` can be installed via [homebrew][homebrew_link]
 
@@ -29,7 +29,7 @@ brew tap felangel/mason
 brew install mason
 ```
 
-## Summary 📚
+## 📚 Summary
 
 Once you have successfully installed the `mason_cli` you can verify your setup by running the `mason` command in your terminal. If `mason_cli` was installed correctly, you should see something similar to the following output:
 

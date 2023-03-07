@@ -4,11 +4,11 @@ description: Learn how to generate code from an installed brick.
 sidebar_position: 5
 ---
 
-# Using Bricks 👷
+# 👷 Using Bricks
 
 In this section, we'll take a look at how to use the `make` command to generate code from an existing brick.
 
-## Overview 🚀
+## 🚀 Overview
 
 As we saw in the [overview](/), we can run the `mason make` command followed by the name of an installed brick to generate code from that brick:
 
@@ -20,7 +20,7 @@ mason make hello
   /me/mason_playground/HELLO.md (new)
 ```
 
-## Command-line Args 🧑‍💻
+## 🧑‍💻 Command-line Args
 
 By default, if a brick requires variables `mason` will prompt for those variables as seen in the snippet above. If we know in advance what variables a brick requires, we can provide variables to `mason` as command-line arguments:
 
@@ -37,7 +37,7 @@ Notice how in the above example, `mason` did not prompt for the name since it wa
 In cases where there are multiple variables, it's possible to supply any number of variables directly as command-line args and `mason` will prompt for any missing variables automatically.
 :::
 
-## Config File 📝
+## 📝 Config File
 
 In some cases, it may be inconvenient to have to provide variables manually or via command-line args (especially for templates that require many variables). In these cases, we can provide variables via a configuration file. For example, if we create a file called `config.json` with the following contents:
 
@@ -60,7 +60,7 @@ mason make hello -c config.json
 The configuration file can have any name and can live anywhere on your local file system.
 :::
 
-## Custom Output Directory 🗂
+## 🗂 Custom Output Directory
 
 By default `mason make` will generate the output in the current working directory but a custom output directory can be specified via the `-o` option:
 
@@ -75,7 +75,7 @@ mason make hello --name Mason -o ./out
 `mason` will automatically create any missing directories for you if you specify an output directory which doesn't already exist.
 :::
 
-## File Conflict Resolution ❗️
+## ❗️ File Conflict Resolution
 
 A conflict can occur when `mason` attempts to generate a file which already exists and the contents of the existing file differ from the contents of the generated file.
 
@@ -104,7 +104,7 @@ n - no, do not overwrite
 a - append to existing file
 ```
 
-## Conflict Resolution Strategy ✅
+## ✅ Conflict Resolution Strategy
 
 A custom file conflict resolution strategy can be specified via the `--on-conflict` option:
 
@@ -122,7 +122,7 @@ mason make hello --name Mason --on-conflict skip
 mason make hello --name Mason --on-conflict append
 ```
 
-## Detecting Changes 🕵️
+## 🕵️ Detecting Changes
 
 In some cases, it may be useful to detect whether running `mason make` for a given brick produces a diff. For example, you may want to add a step in a continuous integration workflow which runs `mason make` for a given brick to ensure developers ran a codegen step prior to opening a pull request. The `--set-exit-if-changed` flag will exit with an error code if any files were changed after running `mason make`:
 

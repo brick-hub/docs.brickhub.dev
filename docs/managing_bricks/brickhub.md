@@ -4,9 +4,9 @@ description: Learn more about the BrickHub registry.
 sidebar_position: 1
 ---
 
-# Intro to BrickHub ☁️🧱
+# 🧱 Intro to BrickHub
 
-## Overview 🚀
+## 🚀 Overview
 
 ![BrickHub](/img/brickhub.png)
 

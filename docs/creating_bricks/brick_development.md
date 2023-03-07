@@ -4,13 +4,13 @@ description: Learn about the brick development workflow.
 sidebar_position: 4
 ---
 
-# Brick Development 🧑‍💻
+# 🧑‍💻 Brick Development
 
-## Overview 🚀
+## 🚀 Overview
 
 In this section, we'll take a look at how to develop a brick locally.
 
-## Installation
+## ⚙️ Installation
 
 Once you have created a new brick locally, you can develop and test the brick by installing it via path. The two main approaches are installing the brick locally using a `mason.yaml` or installing the brick globally.
 
@@ -79,7 +79,7 @@ mason ls -g
 └── example 0.1.0+1 -> /Users/me/mason_playground/bricks/example
 ```
 
-## Usage
+## 📝 Usage
 
 At this point we have successfully installed our local brick and can use it via `mason make`:
 

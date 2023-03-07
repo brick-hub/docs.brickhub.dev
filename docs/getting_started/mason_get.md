@@ -4,7 +4,7 @@ description: Learn how to install your first brick.
 sidebar_position: 3
 ---
 
-# Installing Bricks 🧱
+# 🧱 Installing Bricks
 
 Now that we have a `mason.yaml`, we can use the `get` command to install all bricks defined in the nearest parent `mason.yaml`.
 
