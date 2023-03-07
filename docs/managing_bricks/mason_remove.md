@@ -4,13 +4,13 @@ description: Learn how to uninstall bricks from various sources.
 sidebar_position: 4
 ---
 
-# Removing Bricks 🗑
+# 🗑 Removing Bricks
 
-## Overview 🚀
+## 🚀 Overview
 
 Installed bricks can be uninstalled via the `remove` command.
 
-## Local 🗂
+## 🗂 Local
 
 We can uninstall a brick in a local workspace by running `mason remove` followed by the brick name:
 
@@ -21,7 +21,7 @@ mason remove example
 
 The above command will uninstall the `example` brick in the current workspace.
 
-## Global 🌎
+## 🌎 Global
 
 We can uninstall a global brick by adding the `--global` (`-g` for short) flag:
 

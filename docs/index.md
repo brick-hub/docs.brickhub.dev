@@ -3,7 +3,7 @@ slug: /
 sidebar_position: 1
 ---
 
-# Overview 🚀
+# 🚀 Overview
 
 Welcome to the [BrickHub][brickhub_link] docs 👋
 

@@ -4,9 +4,9 @@ description: Learn how to install bricks from various sources.
 sidebar_position: 4
 ---
 
-# Adding Bricks 🛒
+# 🛒 Adding Bricks
 
-## Overview 🚀
+## 🚀 Overview
 
 Once you have found a brick that you'd like to use, you can install it via the `add` command. The `add` command allows developers to add brick templates locally or globally on their machines from either a local path, git url, or registry. By default `mason add` will add the brick locally but bricks can be added globally by providing the `--global` (`-g` for short) flag.
 
@@ -16,7 +16,7 @@ Installing bricks in a local workspace is recommended when the bricks are specif
 Installing bricks globally is recommended when the bricks are generic and will be used across multiple projects/workspaces.
 :::
 
-### Path 📁
+### 📁 Path
 
 A brick can be installed via path using the `--path` option.
 
@@ -26,7 +26,7 @@ The `--path` must point to directory containing the `brick.yaml`.
 
 The following command will install a brick named `example` located in the `./example` directory:
 
-**Local** 🗂
+🗂 **Local**
 
 ```bash
 mason add example --path ./example
@@ -40,13 +40,13 @@ bricks:
     path: ./example
 ```
 
-**Global** 🌎
+🌎 **Global**
 
 ```bash
 mason add -g example --path ./example
 ```
 
-### Git 🧑‍💻
+### 🧑‍💻 Git
 
 A brick can be installed via a git url using the `--git-url` option.
 
@@ -58,7 +58,7 @@ The `--git-ref` is also optional and allows us to specify a reference (tag, comm
 
 The following command will install a brick named `widget` located at [https://github.com/felangel/mason](https://github.com/felangel/mason):
 
-**Local** 🗂
+🗂 **Local**
 
 ```bash
 mason add widget
@@ -77,7 +77,7 @@ bricks:
       path: 'bricks/widget'
 ```
 
-**Global** 🌎
+🌎 **Global**
 
 ```bash
 mason add -g widget
@@ -86,13 +86,13 @@ mason add -g widget
   --git-ref 1f9ffefa02045f9729addf205a176d263cd5de0b
 ```
 
-### Registry ☁️
+### ☁️ Registry
 
 By default when using the `add` command, bricks are installed from the BrickHub registry.
 
 The following command will install the latest version of the `amplify_starter` brick from the BrickHub registry:
 
-**Local** 🗂
+🗂 **Local**
 
 ```bash
 mason add amplify_starter
@@ -105,7 +105,7 @@ bricks:
   amplify_starter: ^0.2.2
 ```
 
-**Global** 🌎
+🌎 **Global**
 
 ```bash
 mason add -g amplify_starter

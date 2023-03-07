@@ -4,9 +4,9 @@ description: Learn about the brick template syntax.
 sidebar_position: 3
 ---
 
-# Brick Syntax 🥸
+# 🥸 Brick Syntax
 
-## Overview 🚀
+## 🚀 Overview
 
 Write your brick template in the `__brick__` directory using [mustache templates](https://mustache.github.io/).
 
@@ -28,7 +28,7 @@ The `__brick__` directory can contain multiple files and subdirectories.
 Use `{{{variable}}}` instead of `{{variable}}` when you want the value of `variable` to be unescaped.
 :::
 
-## Conditionals 🚦
+## 🚦 Conditionals
 
 It's possible to conditionally render parts of your template based on boolean variable values.
 
@@ -84,7 +84,7 @@ If we run `mason make` from the template with the following variables:
 
 The `CHANGELOG.md` would not be generated.
 
-## Loops 🔁
+## 🔁 Loops
 
 We can also have loops in templates in response to array variable values.
 
@@ -118,7 +118,7 @@ Web
 Using `{{.}}` in a loop allows us to render the current value at each iteration of the loop.
 :::
 
-## Lambdas ✨
+## ✨ Lambdas
 
 Mason supports functions that manipulate the rendered output called lambdas.
 
@@ -221,7 +221,7 @@ The output will be:
 Lambdas can be applied to file names as well as file contents.
 :::
 
-## Partials 📄
+## 📄 Partials
 
 It is possible to have templates nested within other templates. For example, given the follow `__brick__` structure:
 
@@ -267,7 +267,7 @@ _made with 💖 by mason_
 
 ❗ **Note: Partials can contain variables just like regular templates**
 
-## File Resolution 🗃
+## 🗃 File Resolution
 
 It is possible to resolve files based on path input variables using the `{{% %}}` tag.
 
