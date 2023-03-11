@@ -26,7 +26,11 @@ The `brick.yaml` file is a manifest which contains metadata for the current bric
 
 ```yaml
 name: example
-description: An example brick
+description: A new brick created with the Mason CLI.
+
+# The following defines the brick repository url.
+# Uncomment and update the following line before publishing the brick.
+# repository: https://github.com/my_org/my_repo
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
@@ -50,7 +54,7 @@ environment:
 vars:
   name:
     type: string
-    description: Your name.
+    description: Your name
     default: Dash
     prompt: What is your name?
 ```

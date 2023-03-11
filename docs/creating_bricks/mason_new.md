@@ -14,13 +14,12 @@ The `mason new` command allows us to create a new, custom brick template in the 
 
 ```bash
 mason new example
-✓ Created new brick: example (74ms)
-✓ Generated 5 file(s):
-  /me/mason_playground/example/brick.yaml (new)
-  /me/mason_playground/example/README.md (new)
-  /me/mason_playground/example/CHANGELOG.md (new)
-  /me/mason_playground/example/LICENSE (new)
-  /me/mason_playground/example/__brick__/HELLO.md (new)
+✓ Generated 5 file(s). (34ms)
+  created example/brick.yaml
+  created example/README.md
+  created example/CHANGELOG.md
+  created example/LICENSE
+  created example/__brick__/HELLO.md
 ```
 
 ## ✍️ Custom Description

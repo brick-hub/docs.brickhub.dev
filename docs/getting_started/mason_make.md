@@ -15,9 +15,8 @@ As we saw in the [overview](/), we can run the `mason make` command followed by 
 ```bash
 mason make hello
 ? What is your name? (Dash) Mason
-✓ Made brick hello (52ms)
-✓ Generated 1 file:
-  /me/mason_playground/HELLO.md (new)
+✓ Generated 1 file. (29ms)
+  created HELLO.md
 ```
 
 ## 🧑‍💻 Command-line Args
@@ -26,9 +25,8 @@ By default, if a brick requires variables `mason` will prompt for those variable
 
 ```bash
 mason make hello --name Mason
-✓ Made brick hello (52ms)
-✓ Generated 1 file:
-  /me/mason_playground/HELLO.md (new)
+✓ Generated 1 file. (29ms)
+  created HELLO.md
 ```
 
 Notice how in the above example, `mason` did not prompt for the name since it was already provided as an argument.
@@ -51,9 +49,8 @@ We can then pass the config file to `mason make` via the `-c` option:
 
 ```bash
 mason make hello -c config.json
-✓ Made brick hello (52ms)
-✓ Generated 1 file:
-  /me/mason_playground/HELLO.md (new)
+✓ Generated 1 file. (29ms)
+  created HELLO.md
 ```
 
 :::note
@@ -66,9 +63,8 @@ By default `mason make` will generate the output in the current working director
 
 ```bash
 mason make hello --name Mason -o ./out
-✓ Made brick hello (52ms)
-✓ Generated 1 file:
-  /me/mason_playground/out/HELLO.md (new)
+✓ Generated 1 file. (29ms)
+  created out/HELLO.md
 ```
 
 :::note
@@ -81,11 +77,10 @@ A conflict can occur when `mason` attempts to generate a file which already exis
 
 ```bash
 mason make hello --name Dash
-conflict /me/mason_playground/HELLO.md
+conflict HELLO.md
 Overwrite HELLO.md? (Yyna) y
-✓ Made brick hello (32.5s)
-✓ Generated 1 file:
-  /me/mason_playground/HELLO.md (new)
+✓ Generated 1 file. (21.6s)
+  created HELLO.md
 ```
 
 **`HELLO.md`**
