@@ -24,6 +24,9 @@ dart pub global activate mason_cli
 # 📁 Initialize mason in the current workspace
 mason init
 
+# 📦 Install your first brick
+mason add hello
+
 # 🚧 Generate code from a brick
 mason make hello
 ```

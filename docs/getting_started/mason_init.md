@@ -20,14 +20,14 @@ Once we run, `mason init`, we should have a `mason.yaml` that looks something li
 
 ```yaml
 # Register bricks which can be consumed via the Mason CLI.
-# https://github.com/felangel/mason
+# Run "mason get" to install all registered bricks.
+# To learn more, visit https://docs.brickhub.dev.
 bricks:
-  # Sample Brick
-  # Run `mason make hello` to try it out.
-  hello: any
-  # Bricks can also be imported via git url.
-  # Uncomment the following lines to import
-  # a brick from a remote git url.
+  # Bricks can be imported via version constraint from a registry.
+  # Uncomment the following line to import the "hello" brick from BrickHub.
+  # hello: 0.1.0+1
+  # Bricks can also be imported via remote git url.
+  # Uncomment the following lines to import the "widget" brick from git.
   # widget:
   #   git:
   #     url: https://github.com/felangel/mason.git

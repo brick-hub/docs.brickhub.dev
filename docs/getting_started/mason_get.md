@@ -6,7 +6,14 @@ sidebar_position: 3
 
 # 🧱 Installing Bricks
 
-Now that we have a `mason.yaml`, we can use the `get` command to install all bricks defined in the nearest parent `mason.yaml`.
+Now that we have a `mason.yaml`, we can uncomment the "hello" brick (`hello: 0.1.0+1`):
+
+```yaml
+bricks:
+  hello: 0.1.0+1
+```
+
+Then, we can use the `get` command to install all bricks defined in the nearest parent `mason.yaml`.
 
 ```bash
 mason get
@@ -16,7 +23,7 @@ Running `mason get` should result in output that looks like:
 
 ```bash
 mason get
-✓ Getting bricks (22ms)
+✓ Got bricks (22ms)
 ```
 
 :::info
@@ -36,7 +43,7 @@ Bricks are cached for offline use so running `mason get` again will resolve the 
 
 ```bash
 mason get
-✓ Getting bricks (10ms)
+✓ Got bricks (10ms)
 ```
 
 :::
