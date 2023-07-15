@@ -59,7 +59,9 @@ vars:
     prompt: What is your name?
 ```
 
-## Variable Types
+### Variable Types
+
+Variables defined in your `brick.yaml` can be one of the following types:
 
 | Type      | Description                            | Example                                         |
 | --------- | -------------------------------------- | ----------------------------------------------- |
