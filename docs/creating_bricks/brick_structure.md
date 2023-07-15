@@ -59,6 +59,17 @@ vars:
     prompt: What is your name?
 ```
 
+## Variable Types
+
+| Type      | Description                            | Example                                         |
+| --------- | -------------------------------------- | ----------------------------------------------- |
+| `string`  | A primitive string                     | `"Dash"`                                        |
+| `number`  | A primitive number                     | `42`                                            |
+| `boolean` | A primitive boolean                    | `true`/`false`                                  |
+| `enum`    | An enumeration (single choice)         | `["red", "green", "blue"]` -> `"red"`           |
+| `array`   | An array of strings (multiple choices) | `["red", "green", "blue"]` -> `["red", "blue"]` |
+| `list`    | A dynamic list of strings (open ended) | `["c++", "dart", "python"]`                     |
+
 ## `__brick__`
 
 The `__brick__` directory contains the template for your brick. Any files, directories within the `__brick__` will be generated when the brick is used via `mason make`.
