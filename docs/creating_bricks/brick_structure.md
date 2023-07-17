@@ -72,6 +72,15 @@ Variables defined in your `brick.yaml` can be one of the following types:
 | `array`   | An array of strings (multiple choices) | `["red", "green", "blue"]` -> `["red", "blue"]` |
 | `list`    | A dynamic list of strings (open ended) | `["c++", "dart", "python"]`                     |
 
+| Type      | Example |
+| --------- | -------------------------------------- |
+| `string`  | https://github.com/felangel/mason/blob/master/bricks/app_icon/brick.yaml |
+| `number`  | https://github.com/felangel/mason/blob/master/bricks/bio/brick.yaml |
+| `boolean` | https://github.com/felangel/mason/blob/master/bricks/bio/brick.yaml |
+| `enum`    | https://github.com/felangel/mason/blob/master/bricks/favorite_color/brick.yaml         |
+| `array`   | https://github.com/felangel/mason/blob/master/bricks/flavors/brick.yaml |
+| `list`    | https://github.com/felangel/mason/blob/master/bricks/favorite_languages/brick.yaml |
+
 ## `__brick__`
 
 The `__brick__` directory contains the template for your brick. Any files, directories within the `__brick__` will be generated when the brick is used via `mason make`.
