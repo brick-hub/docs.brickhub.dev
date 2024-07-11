@@ -36,10 +36,27 @@ password: ******
 ✓ Logged into brickhub.dev (0.5s)
 You are now logged in as <me@email.com>
 ```
+## 📁 Add repository field
+
+Once you are logged into an account, add `repository` field with your remote git repo url in your `brick.yaml` file:
+
+```yaml
+name: your_brick
+description: A mason brick created with the Mason CLI
+
+# Replace `https://github.com/user/repo` with your repo url
+repository: https://github.com/user/repo
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.57 <0.1.0"
+
+```
 
 ## 📦 Publishing
 
-Once you are logged into an account, you can publish bricks via the `publish` command:
+After adding the repository field, you can publish bricks via the `publish` command:
 
 ```bash
 mason publish --directory ./my_brick
