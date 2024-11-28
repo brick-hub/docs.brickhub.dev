@@ -24,6 +24,9 @@ jobs:
       - name: 📚 Git Checkout
         uses: actions/checkout@v2
 
+      - name: 📄 Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: ⚙️ Setup Node
         uses: actions/setup-node@v3
         with:
@@ -42,6 +45,11 @@ jobs:
 
       - name: 👷 Build website
         run: yarn build
+
+      - name: ⬆️ Upload Build
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
 
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
