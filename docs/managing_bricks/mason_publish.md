@@ -52,6 +52,10 @@ Do you want to publish my_brick 0.1.0+1? (y/N) y
 If the `--directory` option is not specified, the current directory will be used by default.
 :::
 
+:::caution
+Be sure to update your `README`, `LICENSE`, `CHANGELOG`, and required fields in the `brick.yaml` such as the `name`, `description`, `version`, and `repository` before publishing.
+:::
+
 ## 🚪 Logging Out
 
 If you wish to log out of your account, you can do so via the `logout` command.
