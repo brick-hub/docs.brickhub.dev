@@ -63,14 +63,14 @@ vars:
 
 Variables defined in your `brick.yaml` can be one of the following types:
 
-| Type      | Description                            | Example                                         |
-| --------- | -------------------------------------- | ----------------------------------------------- |
-| `string`  | A primitive string                     | `"Dash"`                                        |
-| `number`  | A primitive number                     | `42`                                            |
-| `boolean` | A primitive boolean                    | `true`/`false`                                  |
-| `enum`    | An enumeration (single choice)         | `["red", "green", "blue"]` -> `"red"`           |
-| `array`   | An array of strings (multiple choices) | `["red", "green", "blue"]` -> `["red", "blue"]` |
-| `list`    | A dynamic list of strings (open ended) | `["c++", "dart", "python"]`                     |
+| Type      | Description                            | Example                                                                                                                             |
+| --------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `string`  | A primitive string                     | `"Dash"` ([sample](https://github.com/felangel/mason/blob/master/bricks/app_icon/brick.yaml))                                       |
+| `number`  | A primitive number                     | `42` ([sample](https://github.com/felangel/mason/blob/master/bricks/bio/brick.yaml))                                                |
+| `boolean` | A primitive boolean                    | `true`/`false` ([sample](https://github.com/felangel/mason/blob/master/bricks/bio/brick.yaml))                                      |
+| `enum`    | An enumeration (single choice)         | `["red", "green", "blue"]` -> `"red"` ([sample](https://github.com/felangel/mason/blob/master/bricks/favorite_color/brick.yaml))    |
+| `array`   | An array of strings (multiple choices) | `["red", "green", "blue"]` -> `["red", "blue"]` ([sample](https://github.com/felangel/mason/blob/master/bricks/flavors/brick.yaml)) |
+| `list`    | A dynamic list of strings (open ended) | `["c++", "dart", "python"]` ([sample](https://github.com/felangel/mason/blob/master/bricks/favorite_languages/brick.yaml))          |
 
 ## `__brick__`
 
