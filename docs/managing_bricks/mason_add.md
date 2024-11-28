@@ -90,23 +90,23 @@ mason add -g widget
 
 By default when using the `add` command, bricks are installed from the BrickHub registry.
 
-The following command will install the latest version of the `amplify_starter` brick from the BrickHub registry:
+The following command will install the latest version of the [`flutter_news_template`](https://flutter.github.io/news_toolkit/) brick from the BrickHub registry:
 
 🗂 **Local**
 
 ```bash
-mason add amplify_starter
+mason add flutter_news_template
 ```
 
-Running the above command will automatically resolve the latest version, install the `amplify_starter` brick in the current workspace, and update the `mason.yaml`:
+Running the above command will automatically resolve the latest version, install the `flutter_news_template` brick in the current workspace, and update the `mason.yaml`:
 
 ```yaml
 bricks:
-  amplify_starter: ^0.2.2
+  flutter_news_template: ^1.0.0
 ```
 
 🌎 **Global**
 
 ```bash
-mason add -g amplify_starter
+mason add -g flutter_news_template
 ```

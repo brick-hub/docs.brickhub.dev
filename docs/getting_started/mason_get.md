@@ -6,11 +6,11 @@ sidebar_position: 3
 
 # 🧱 Installing Bricks
 
-Now that we have a `mason.yaml`, we can uncomment the "hello" brick (`hello: 0.1.0+1`):
+Now that we have a `mason.yaml`, we can uncomment the "hello" brick (`hello: 0.1.0+2`):
 
 ```yaml
 bricks:
-  hello: 0.1.0+1
+  hello: 0.1.0+2
 ```
 
 Then, we can use the `get` command to install all bricks defined in the nearest parent `mason.yaml`.
