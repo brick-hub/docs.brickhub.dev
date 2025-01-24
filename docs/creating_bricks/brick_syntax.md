@@ -84,6 +84,16 @@ If we run `mason make` from the template with the following variables:
 
 The `CHANGELOG.md` would not be generated.
 
+:::tip
+If you prefer to avoid nested directories due to the use of `/` you can use `\` instead.
+
+```
+├── __brick__
+│   └── {{#createChangelog}}CHANGELOG.md{{\createChangelog}}
+```
+
+:::
+
 ## 🔁 Loops
 
 We can also have loops in templates in response to array variable values.
@@ -122,7 +132,7 @@ Using `{{.}}` in a loop allows us to render the current value at each iteration 
 
 Mason supports functions that manipulate the rendered output called lambdas.
 
-For example, if we have a `__brick__/{{name.snakeCase()}}.md` file with the following contents:
+For example, if we have a `__brick__/{{name.snakeCase()}}.dart` file with the following contents:
 
 ```
 import 'package:flutter/widgets.dart';
